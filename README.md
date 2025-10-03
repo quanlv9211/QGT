@@ -16,7 +16,7 @@ The data folder is `./data/node_classification/`.
 
 For Cora, Citeseer, Pubmed, Airport, we get the data from Hypformer [repo](https://github.com/Graph-and-Geometric-Learning/hyperbolic-transformer.git).
 
-For Arxiv, Product and Vessel, we use ogbn library to install. Run the command in `examples/run_nc.sh` and `examples/run_lp.sh` to create.
+For Arxiv, Products and Vessel, we use ogbn library to install. Run the command in `examples/run_nc.sh` and `examples/run_lp.sh` to create.
 
 For Penn94, we get the data from this [repo](https://github.com/CUAI/Non-Homophily-Large-Scale.git). Please set up the dataset in the data folder following this structure:
     - Create `./data/node_classification/fb100/`
@@ -45,7 +45,7 @@ For Tree-1, Tree-2, Tree-3 datasets, please run the command in `examples/run_lp.
 - Seeds that we use: 1234, 1192, 1000.
 
 3.3 Dataset
-- Dataset choices: cora, citeseer, pubmed, airport, ogbn-arxiv, fb100, twitch_gamer, tree1, tree2, tree3.
+- Dataset choices: cora, citeseer, pubmed, airport, ogbn-arxiv, ogbn-products, ogbl-vessel, fb100, twitch_gamer, tree1, tree2, tree3.
 
 3-4 Configuration
 - Please see the file `config.py` for your customization.
